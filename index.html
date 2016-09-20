@@ -34,43 +34,32 @@
 
 
   <div class="row">
-  <form id="gform" method="POST" class="pure-form pure-form-stacked"
-  action="https://script.google.com/macros/s/AKfycbyklfVFZ59HOethpPBblQ5DZl36xJzHONIRSCNZEU_U4vnrYqk/exec">
+    <form class="col s12" id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbyklfVFZ59HOethpPBblQ5DZl36xJzHONIRSCNZEU_U4vnrYqk/exec
+">
       <div class="row">
       <div class="input-field col s6">
-          <input name="apodo" placeholder="Apodo" id="first_name" type="text" class="validate">
+          <input placeholder="Apodo" id="first_name" type="text" class="validate">
           <label for="first_name"></label>
         </div>
       </div>
 
       <div class="row">
           <div class="input-field col s12">
-            <textarea name="chisme" type="text" placeholder="ya suelta el chimse aqui..." id="textarea1" class="materialize-textarea" length="120"></textarea>
+            <textarea type="text" placeholder="ya suelta el chimse aqui..." id="textarea1" class="materialize-textarea" length="120"></textarea>
             <label for="Ya suelta el chisme"></label>
           </div>
       </div>
 
      <button class="btn waves-effect waves-light" type="submit" name="action">Agregar al chisme
-    <i class="material-icons right">&nbsp;Send</i>
+    <i class="material-icons right">send</i>
   </button>
+
+
 
 
     </form>
   </div>
 
-
-
-<!-- Customise the Thankyou Message People See when they submit the form: -->
-  <div style="display:none;" id="thankyou_message">
-    <h2><em>Gracias</em> En breve te diremos el chisme!!!</h2>
-  </div>
-
-  <!-- Submit the Form to Google Using "AJAX" -->
-  <script data-cfasync="false" type="text/javascript"
-  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
-  <!-- <script data-cfasync="false" type="text/javascript"
-  src="/form-submission-handler.js"></script> -->
-<!-- END -->
 
 	
 </body>
